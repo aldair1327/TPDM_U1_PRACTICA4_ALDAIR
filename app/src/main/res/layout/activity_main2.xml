@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:background="@drawable/num"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="MAESTROS QUE DEBES EVITAR SI QUIERES SACAR LA CARRERA"
+        android:textSize="50dp"
+        android:textColor="#555555"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:text="Esto no es un chiste"
+            android:layout_gravity="left|bottom"
+            android:textSize="35dp"
+            android:textStyle="bold|italic"
+
+            />
+
+
+        <ImageView
+        android:layout_width="600px"
+        android:layout_height="500px"
+        android:background="@drawable/objects"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
